@@ -1,0 +1,41 @@
+Local Structure, High p Low q
+=================================================================================================================================
+Current p and q pair is: 5  1
+Current radius is :1
+Reading dataset
+cora
+Generating nx graphs...
+Generating RWs...
+100%|██████████| 100/100 [00:15<00:00,  6.51it/s]
+Generating Dataloader...
+/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 3 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Start Training...
+Epoch (Loss=6.27662):   0%|          | 0/1 [01:51<?, ?it/s]Node classification macro f1: 0.6760, std 0.0069
+Node classification micro f1: 0.7224, std 0.0049
+Embedding saved for step #500
+Epoch (Loss=6.23878):   0%|          | 0/1 [03:38<?, ?it/s]Node classification macro f1: 0.7239, std 0.0082
+Node classification micro f1: 0.7584, std 0.0053
+Embedding saved for step #1000
+Epoch (Loss=6.21269):   0%|          | 0/1 [05:27<?, ?it/s]Node classification macro f1: 0.7487, std 0.0063
+Node classification micro f1: 0.7775, std 0.0069
+Embedding saved for step #1500
+Epoch (Loss=6.19287):   0%|          | 0/1 [07:12<?, ?it/s]Node classification macro f1: 0.7602, std 0.0096
+Node classification micro f1: 0.7870, std 0.0078
+Embedding saved for step #2000
+Epoch (Loss=6.17715):   0%|          | 0/1 [08:57<?, ?it/s]Node classification macro f1: 0.7781, std 0.0084
+Node classification micro f1: 0.7986, std 0.0068
+Embedding saved for step #2500
+Epoch (Loss=6.17208): 100%|██████████| 1/1 [09:42<00:00, 582.16s/it]
+[t-SNE] Computing 181 nearest neighbors...
+[t-SNE] Indexed 2708 samples in 0.001s...
+[t-SNE] Computed neighbors for 2708 samples in 0.197s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 2708
+[t-SNE] Computed conditional probabilities for sample 2000 / 2708
+[t-SNE] Computed conditional probabilities for sample 2708 / 2708
+[t-SNE] Mean sigma: 0.324660
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 66.682671
+[t-SNE] KL divergence after 600 iterations: 0.997985
+/usr/local/lib/python3.10/dist-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+The average silhouette score for 7 clusters is: 0.4951719045639038

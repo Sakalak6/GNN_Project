@@ -1,0 +1,63 @@
+Global Structure, Low p High q
+=================================================================================================================================
+Current p and q pair is: 1  5
+Current radius is :5
+Start Training...
+Epoch (Loss=6.18212):   0%|          | 0/1 [01:28<?, ?it/s]Node classification macro f1: 0.7435, std 0.0088
+Node classification micro f1: 0.7695, std 0.0073
+Embedding saved for step #500
+Epoch (Loss=6.14225):   0%|          | 0/1 [02:54<?, ?it/s]Node classification macro f1: 0.7865, std 0.0064
+Node classification micro f1: 0.8042, std 0.0053
+Embedding saved for step #1000
+Epoch (Loss=6.12162):   0%|          | 0/1 [04:21<?, ?it/s]Node classification macro f1: 0.8013, std 0.0067
+Node classification micro f1: 0.8160, std 0.0053
+Embedding saved for step #1500
+Epoch (Loss=6.10742):   0%|          | 0/1 [05:46<?, ?it/s]Node classification macro f1: 0.8039, std 0.0099
+Node classification micro f1: 0.8168, std 0.0088
+Embedding saved for step #2000
+Epoch (Loss=6.09572):   0%|          | 0/1 [07:08<?, ?it/s]Node classification macro f1: 0.8058, std 0.0087
+Node classification micro f1: 0.8231, std 0.0066
+Embedding saved for step #2500
+Epoch (Loss=6.0917): 100%|██████████| 1/1 [07:40<00:00, 460.59s/it]
+Start Training...
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 3 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Epoch (Loss=6.18079):   0%|          | 0/1 [01:25<?, ?it/s]Node classification macro f1: 0.7664, std 0.0100
+Node classification micro f1: 0.7900, std 0.0080
+Embedding saved for step #500
+Epoch (Loss=6.14192):   0%|          | 0/1 [02:48<?, ?it/s]Node classification macro f1: 0.8095, std 0.0099
+Node classification micro f1: 0.8245, std 0.0086
+Embedding saved for step #1000
+Epoch (Loss=6.12128):   0%|          | 0/1 [04:11<?, ?it/s]Node classification macro f1: 0.8125, std 0.0057
+Node classification micro f1: 0.8280, std 0.0051
+Embedding saved for step #1500
+Epoch (Loss=6.10682):   0%|          | 0/1 [05:36<?, ?it/s]Node classification macro f1: 0.8233, std 0.0064
+Node classification micro f1: 0.8333, std 0.0051
+Embedding saved for step #2000
+Epoch (Loss=6.0943):   0%|          | 0/1 [06:59<?, ?it/s] Node classification macro f1: 0.8229, std 0.0078
+Node classification micro f1: 0.8350, std 0.0070
+Embedding saved for step #2500
+Epoch (Loss=6.08956): 100%|██████████| 1/1 [07:33<00:00, 453.31s/it]
+Start Training...
+Epoch:   0%|          | 0/1 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 3 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Epoch (Loss=6.18068):   0%|          | 0/1 [01:25<?, ?it/s]Node classification macro f1: 0.7653, std 0.0079
+Node classification micro f1: 0.7897, std 0.0045
+Embedding saved for step #500
+Epoch (Loss=6.14192):   0%|          | 0/1 [02:47<?, ?it/s]Node classification macro f1: 0.7906, std 0.0050
+Node classification micro f1: 0.8099, std 0.0050
+Embedding saved for step #1000
+Epoch (Loss=6.12097):   0%|          | 0/1 [04:11<?, ?it/s]Node classification macro f1: 0.7934, std 0.0056
+Node classification micro f1: 0.8125, std 0.0045
+Embedding saved for step #1500
+Epoch (Loss=6.10532):   0%|          | 0/1 [05:33<?, ?it/s]Node classification macro f1: 0.8008, std 0.0048
+Node classification micro f1: 0.8150, std 0.0045
+Embedding saved for step #2000
+Epoch (Loss=6.09458):   0%|          | 0/1 [07:01<?, ?it/s]Node classification macro f1: 0.8011, std 0.0096
+Node classification micro f1: 0.8160, std 0.0075
+Embedding saved for step #2500
+Epoch (Loss=6.09101): 100%|██████████| 1/1 [07:35<00:00, 455.01s/it]
+[t-SNE] Mean sigma: 0.344301
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 65.405495
+[t-SNE] KL divergence after 600 iterations: 0.733895
+The average silhouette score for 7 clusters is: 0.4662562906742096
