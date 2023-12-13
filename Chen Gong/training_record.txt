@@ -1,0 +1,111 @@
+1 Epoch, with attention, and bias_attention:
+Epoch (Loss=6.23046):   0%|                                                                                                                   | 0/1 [02:24<?, ?it/s]Node classification macro f1: 0.6474, std 0.0112
+Node classification micro f1: 0.6845, std 0.0078
+Embedding saved for step #500
+Epoch (Loss=6.17946):   0%|                                                                                                                   | 0/1 [03:55<?, ?it/s]Node classification macro f1: 0.7207, std 0.0079
+Node classification micro f1: 0.7489, std 0.0079
+Embedding saved for step #1000
+Epoch (Loss=6.14987):   0%|                                                                                                                   | 0/1 [05:25<?, ?it/s]Node classification macro f1: 0.7503, std 0.0053
+Node classification micro f1: 0.7760, std 0.0049
+Embedding saved for step #1500
+Epoch (Loss=6.12908):   0%|                                                                                                                   | 0/1 [06:55<?, ?it/s]Node classification macro f1: 0.7699, std 0.0054
+Node classification micro f1: 0.7921, std 0.0048
+Embedding saved for step #2000
+Epoch (Loss=6.11539):   0%|
+| 0/1 [08:25<?, ?it/s]
+Node classification macro f1: 0.7756, std 0.0087
+Node classification micro f1: 0.7988, std 0.0066
+Embedding saved for step #2500
+
+5 epoch with attention:
+Node classification macro f1: 0.8254, std 0.0055
+Node classification micro f1: 0.8394, std 0.0049
+Embedding saved for step #500
+Epoch (Loss=5.99631):  80%|███████████████████████████████████████████████████████████████████████████████████████▏                     | 4/5 [41:47<09:28, 568.43s/it]Node classification macro f1: 0.8173, std 0.0053
+Node classification micro f1: 0.8329, std 0.0053
+Embedding saved for step #1000
+Epoch (Loss=5.99625):  80%|███████████████████████████████████████████████████████████████████████████████████████▏                     | 4/5 [43:16<09:28, 568.43s/it]Node classification macro f1: 0.8177, std 0.0046
+Node classification micro f1: 0.8316, std 0.0049
+Embedding saved for step #1500
+Epoch (Loss=5.99539):  80%|███████████████████████████████████████████████████████████████████████████████████████▏
+| 4/5 [44:46<09:28, 568.43s/it]
+Node classification macro f1: 0.8202, std 0.0092
+Node classification micro f1: 0.8340, std 0.0067
+Embedding saved for step #2000
+Epoch (Loss=5.99493):  80%|███████████████████████████████████████████████████████████████████████████████████████▏
+| 4/5 [46:15<09:28, 568.43s/it]
+Node classification macro f1: 0.8187, std 0.0044
+Node classification micro f1: 0.8327, std 0.0023
+Embedding saved for step #2500
+
+
+1 Epoch Multi-head attention 2 head:
+Epoch (Loss=6.22869):   0%|                                                                                                                      | 0/1 [03:10<?, ?it/s]Node classification macro f1: 0.6791, std 0.0072
+Node classification micro f1: 0.7167, std 0.0068
+Embedding saved for step #500
+Epoch (Loss=6.17767):   0%|                                                                                                                      | 0/1 [05:28<?, ?it/s]Node classification macro f1: 0.7357, std 0.0103
+Node classification micro f1: 0.7671, std 0.0077
+Embedding saved for step #1000
+Epoch (Loss=6.14703):   0%|                                                                                                                      | 0/1 [07:48<?, ?it/s]Node classification macro f1: 0.7782, std 0.0075
+Node classification micro f1: 0.8024, std 0.0063
+Embedding saved for step #1500
+Epoch (Loss=6.12569):   0%|                                                                                                                      | 0/1 [10:07<?, ?it/s]Node classification macro f1: 0.7842, std 0.0069
+Node classification micro f1: 0.8119, std 0.0069
+Embedding saved for step #2000
+Epoch (Loss=6.11137):   0%|
+| 0/1 [12:26<?, ?it/s]
+Node classification macro f1: 0.7836, std 0.0029
+Node classification micro f1: 0.8110, std 0.0026
+Embedding saved for step #2500
+
+2 Epoch Multi-head 4 head:
+Node classification macro f1: 0.8209, std 0.0067
+Node classification micro f1: 0.8367, std 0.0071
+Embedding saved for step #2500
+
+5 Epoch Multi-head 4 head:
+BEST:
+Node classification macro f1: 0.8269, std 0.0052
+Node classification micro f1: 0.8399, std 0.0040
+LAST EPOCH:
+Node classification macro f1: 0.8173, std 0.0103
+Node classification micro f1: 0.8282, std 0.0080
+Embedding saved for step #500
+Epoch (Loss=5.98373):  80%|████████████████████████████████████████████████████████████████████████████████████▊                     | 4/5 [1:35:05<21:39, 1299.57s/it]Node classification macro f1: 0.8216, std 0.0053
+Node classification micro f1: 0.8311, std 0.0070
+Embedding saved for step #1000
+Epoch (Loss=5.98269):  80%|████████████████████████████████████████████████████████████████████████████████████▊                     | 4/5 [1:38:49<21:39, 1299.57s/it]Node classification macro f1: 0.8175, std 0.0078
+Node classification micro f1: 0.8262, std 0.0067
+Embedding saved for step #1500
+Epoch (Loss=5.98219):  80%|████████████████████████████████████████████████████████████████████████████████████▊                     | 4/5 [1:42:34<21:39, 1299.57s/it]Node classification macro f1: 0.8186, std 0.0058
+Node classification micro f1: 0.8281, std 0.0057
+Embedding saved for step #2000
+Epoch (Loss=5.98179):  80%|████████████████████████████████████████████████████████████████████████████████████▊
+| 4/5 [1:46:21<21:39, 1299.57s/it]
+Node classification macro f1: 0.8202, std 0.0069
+Node classification micro f1: 0.8305, std 0.0055
+Embedding saved for step #2500
+
+
+1 Epoch NO attention:
+Node classification macro f1: 0.7390, std 0.0093
+Node classification micro f1: 0.7569, std 0.0074
+Embedding saved for step #500
+Epoch (Loss=6.15094):   0%|                                                                                                                   | 0/1 [03:15<?, ?it/s]Node classification macro f1: 0.7895, std 0.0061
+Node classification micro f1: 0.8022, std 0.0054
+Embedding saved for step #1000
+Epoch (Loss=6.11989):   0%|                                                                                                                   | 0/1 [04:25<?, ?it/s]Node classification macro f1: 0.8128, std 0.0044
+Node classification micro f1: 0.8203, std 0.0049
+Embedding saved for step #1500
+Epoch (Loss=6.09858):   0%|                                                                                                                   | 0/1 [05:35<?, ?it/s]Node classification macro f1: 0.8111, std 0.0062
+Node classification micro f1: 0.8233, std 0.0066
+Embedding saved for step #2000
+Epoch (Loss=6.08284):   0%|
+| 0/1 [06:45<?, ?it/s]
+Node classification macro f1: 0.8191, std 0.0045
+Node classification micro f1: 0.8282, std 0.0047
+Embedding saved for step #2500
+
+5 Epoch No attention:
+Node classification macro f1: 0.8253, std 0.0061
+Node classification micro f1: 0.8303, std 0.0062
